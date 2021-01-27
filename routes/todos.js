@@ -47,4 +47,4 @@ router.delete("/:id", function(req, res, next){
 
 
 // exports router
-module.exports = router
+module.exports = router;
