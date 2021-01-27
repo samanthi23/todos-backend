@@ -77,3 +77,33 @@ POST /api/todos 201 55 - 660.013 ms
 
 https://www.postman.com/
 
+```
+[
+  {},
+  {}
+
+]
+```
+
+// deleting
+
+grab id then run http DELETE
+
+```
+~ http DELETE localhost:3001/api/todos/reallylonghash
+```
+
+removed this one successfully
+
+when we get all of our todos we can make sure that we just get one remaining
+
+use JavaScript's filter
+
+backend in REACT.js and Node
+
+use POSTMAN but 
+
+```
+~ brew install httpie
+```
+
