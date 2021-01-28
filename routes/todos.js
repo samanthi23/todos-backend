@@ -42,7 +42,7 @@ router.delete("/:id", function(req, res, next){
 
 // so how do we know if this is working
 
-
+// or POSTMAN or httpie
 
 
 

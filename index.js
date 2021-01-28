@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const cors = require("cors");
+const cors = require("cors"); // make a request to localhost:3001 from localhost:3000
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const todoRoutes = require("./routes/todos");
